@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat con Nodejs</title>
+  <link href="//d2c5utp5fpfikz.cloudfront.net/3_1_1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet" />
+
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+  <script>
+
+  </script>
+</head>
+
+<body>
+
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Chat con Nodejs y Socket </h1>
+      <p>No es obligatorio enviar un archivo</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Chat</h2>
+        <div id="messages"></div>
+      </div>
+      <div class="col-md-6">
+        <h2>Escribe tu mensaje.</h2>
+        <form onsubmit="return addMessage(this)">
+          <div class="form-group">
+            <label for="nickname">Nickname</label>
+            <input type="text" class="form-control" id="nickname" placeholder="Nick" required />
+          </div>
+          <div class="form-group">
+            <label for="text">Mensaje a enviar</label>
+            <input type="text" class="form-control" placeholder="Coloque su mensaje" id="text" required>
+          </div>
+          <div class="form-group">
+
+            <label for="text">Archivo</label>
+
+            <input type="file" class="form-control" value="Ponga su archivo" id="archivo">
+
+
+          </div>
+          <div class="form-group">
+            <input type="submit" class="btn btn-default" name="Enviar" />
+
+
+          </diV>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="//d2c5utp5fpfikz.cloudfront.net/3_1_1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
