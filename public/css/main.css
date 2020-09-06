@@ -1,0 +1,14 @@
+div#messages{
+    overflow-y: scroll;
+    height: 500px;
+    border: 1px solid black;
+  }
+  div.message{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background: white;
+    font-size: 14px;
+  }
+  
