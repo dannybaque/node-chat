@@ -7,3 +7,5 @@
  - recibir si le enviaron un archivo, que lo pueda recibir
 ### Usuario 
  - insertar
+ 
+ ![](Capture.PNG)
